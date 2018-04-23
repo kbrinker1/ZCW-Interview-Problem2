@@ -27,6 +27,10 @@ public class Problem2 {
             }
 
         }
-        return countsequence;
+
+
+
+        return countsequence.substring(0, countsequence.length()-2);
     }
+
 }
